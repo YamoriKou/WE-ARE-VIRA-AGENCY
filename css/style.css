@@ -1,0 +1,529 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.home{
+    background-image: url(../img/1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.header .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    /* border: 1px solid black; */
+    padding: 0 15px;
+}
+
+.logo{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.header{
+    padding: 10px 25px;
+}
+
+.menu{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 77px;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu i{
+    cursor: pointer;
+}
+
+.main-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    /* border: 1px solid black; */
+
+}
+
+.text{
+    /* border: 1px solid black; */
+    width: 830px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.text h1{
+    font-size: 40px;
+}
+
+.text p{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.text button{
+    padding: 10px 50px;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.about{
+    height: 80vh;
+    background-color: rgb(248,248,248);
+    display: flex;
+    justify-content: center;
+}
+
+.about .info{
+    display: flex;
+    flex-direction: column;
+    padding-top: 130px;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.about .info p{
+    padding: 10px 40px 0 0;
+}
+
+.in{
+    margin: 40px 0 ;
+    background-color: blueviolet;
+    width: 50px;
+    height: 6px;
+}
+
+.about .info h2{
+    font-size: 35px;
+}
+
+.about .info h4{
+    padding: 5px;
+}
+
+
+.cards-info{
+    height: 90vh;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px 20px 40px;
+    /* border: 1px solid black; */
+
+}
+
+.card{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    align-items: center;
+    width: 30%;
+}
+
+.line{
+    height: 2px;
+    width: 60px;
+    margin: 20px 0;
+    background-color: blueviolet;
+
+}
+
+.card h2{
+    margin-top: 40px;
+}
+
+.px{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.bor i{
+    border: 1px solid blueviolet;
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+.bor{
+    border: 1px solid blueviolet;
+    width: 95px;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.px h2{
+    margin-top: 90px;
+}
+
+
+
+
+.sliders-info .slider-img{
+    background-image: url(../img/6.jpg);
+    width: 50%;
+    height: 790px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 2px solid black; */
+}
+
+.sliders-info{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px 0; */
+}
+
+.slider-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sl-text p{
+    font-size: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sl-text h2{
+    font-size: 40px;
+    width: 80%;
+}
+
+.sl-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    /* border: 1px solid black; */
+}
+
+.but{
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.butt{
+    width: 13px;
+    height: 13px;
+    background-color: blueviolet;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bu{
+    padding: 40px 0 0 0;
+    width: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.man{
+    background-image: url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    width: 100%;
+    background-position: top;
+}
+
+.man .img-text{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.man .img-text h2{
+    font-size: 30px;
+    width: 75%;
+    padding: 20px 0;
+}
+
+.man .img-text p{
+    padding: 0 0 20px 0;
+    font-size: 20px;
+}
+
+section.worc{
+    height: 100vh;
+}
+
+.pc img{
+    height: 150px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid black; */
+
+}
+
+
+.lines{
+    height: 2px;
+    width: 60px;
+    margin: 20px 0;
+    border: 1px solid blueviolet;
+}
+
+.cards-info .no{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    /* border: 1px solid black; */
+}
+
+.non{
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+
+.none{
+    width: 13px;
+    height: 13px;
+    background-color: blueviolet;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.watch{
+    height: 75vh;
+    background-image: url(../img/01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+
+.show{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 270px 0;
+}
+
+.show h2{
+    font-size: 40px;
+}
+
+.show i{
+    display: flex;
+    align-items: center;
+    font-size: 80px;
+    padding: 24px 20px;
+    cursor: pointer;
+}
+
+section.search{
+    padding: 120px 0;
+    background-image: url(../img/pon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.subscribe h2{
+    padding: 40px 0;
+    font-size: 33px;
+}
+
+.forum input:nth-child(1){
+    padding: 15px 10px;
+    width: 300px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    outline: none;
+    padding-left: 20px;
+}
+
+.forum input:nth-child(2){
+    padding: 15px 40px;
+    width: 220px;
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid white;
+    cursor: pointer;
+    
+}
+
+input:nth-child(1)::placeholder{
+    color: white;
+}
+
+section.drop{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.phone h2{
+    font-size: 25px;
+}
+
+.map{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    /* border: 1px solid black; */
+}
+
+.add{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 440px;
+    height: 250px;
+    margin: 0 30px;
+    background-color: rgb(255, 248, 236);
+}
+
+.liner{
+    margin: 10px 0 20px 0;
+    height: 2px;
+    width: 35px;
+    background-color: blueviolet;
+}
+
+.add i{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.add h2{
+    font-size: 23px;
+}
+
+.add p{
+    font-size: 15px;
+}
+
+.icon{
+    font-size: 30px;
+    color: blueviolet;
+    padding: 45px 0;
+}
+
+.icon i{
+    cursor: pointer;
+}
+
+.ico i{
+    padding-top: 30px;
+    font-size: 27px;
+    color: blueviolet;
+}
+
+.the-end{
+    padding: 100px;
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end i{
+    color: blueviolet;
+}
+
+/* .in :nth-child(4){
+    margin: 0 0 ;
+    background-color: blueviolet;
+    width: 50px;
+    height: 6px;
+} */
